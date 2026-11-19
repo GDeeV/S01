@@ -1,0 +1,55 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+secrets.*
+credentials*.json
+service-account*.json
+.netrc
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# Generated library index
+software/data/
+*.sqlite
+*.sqlite3
+*.db
+
+# CAD build outputs (regenerate with hardware/enclosure/s01_enclosure.py)
+*.step
+*.stp
+*.stl
+*.3mf
+
+# Model weights and large data
+*.gguf
+*.ggml
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.tflite
+models/
+weights/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
