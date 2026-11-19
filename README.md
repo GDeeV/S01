@@ -56,7 +56,7 @@ See `software/README.md` for controls and details.
 
 ## Acknowledgments
 
-Inspired by [CrankGPT](https://squeezlabs.github.io/handcrank) from Squeez Labs, a
+Partially inspired by [CrankGPT](https://squeezlabs.github.io/handcrank) from Squeez Labs, a
 hand-crank-powered offline voice assistant on a Raspberry Pi 5. S-01 doesn't use any
 CrankGPT code.
 
